@@ -68,6 +68,9 @@ namespace ConsoleApp1
             Array.Sort(arrayMethod);
             Console.WriteLine("Sort {0}", string.Join(", ", arrayMethod));
 
+            arrayMethod[2] = 222;
+            Console.WriteLine("Changed {0}", string.Join(", ", arrayMethod));
+
             Array.Reverse(arrayMethod);
             Console.WriteLine("Reverse {0}", string.Join(", ", arrayMethod));
 
